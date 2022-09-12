@@ -1,0 +1,119 @@
+
+
+
+.scroll{
+    height: 79%;
+}
+
+.scroll2{
+    height: 79.5%;
+    overflow: scroll;
+    flex-direction: column;
+    display: flex;
+    background-size: cover;
+    background-position: center;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+ .grey{
+    background-color: #222831;
+    padding: 0;
+
+} 
+
+.small{
+    font-size: 14px;
+}
+
+.green {
+    color: white
+}
+
+.green2 {
+
+    background-color: #00ADB5;
+    
+}
+
+.hovering{
+    transition: 0.1s;
+}
+.hovering:hover{
+    cursor: pointer;
+}
+
+.border-radius{
+    border-radius: 15px;
+}
+
+/* --------------------- */
+.f{
+text-align: center;
+ margin: auto;
+  width: 640px; 
+  margin-top: 32%;
+  font-family:'Times New Roman', Times, serif;
+  font-weight: bold;
+}
+
+.circle{
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: rgb(12, 71, 199);
+    opacity: 0;
+
+
+}
+@keyframes circle1{
+    from{
+        opacity: 0;
+        transform: translateY(-15px);
+    }
+    to{
+        opacity: 1;
+    }
+}
+@keyframes circle2{
+    from{
+        opacity: 0;
+        transform: translateY(-15px);
+    }
+    to{
+        opacity: 1;
+    }
+}
+@keyframes circle3{
+    from{
+        opacity: 0;
+        transform: translateY(-15px);
+    }
+    to{
+        opacity: 1;
+    }
+}
+@keyframes circle4{
+    from{
+        opacity: 0;
+        transform: translateY(-15px);
+    }
+    to{
+        opacity: 1;
+    }
+}
+.circle1{
+    animation: circle1 0.8s  infinite alternate;
+}
+.circle2{
+    animation: circle1 0.8s 0.4s infinite alternate;
+}
+.circle3{
+    animation: circle1 0.8s 0.8s infinite alternate ;
+}
+.circle4{
+    animation: circle1 0.8s 1.2s infinite alternate ;
+}

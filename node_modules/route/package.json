@@ -1,0 +1,37 @@
+{
+  "name": "route",
+  "version": "0.2.5",
+  "description": "Simple routing library",
+  "keywords": [
+    "ender",
+    "router",
+    "route",
+    "routes",
+    "routing"
+  ],
+  "author": "Andrew McCollum <amccollum@gmail.com>",
+  "url": "http://github.com/amccollum/route",
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/amccollum/route.git"
+    }
+  ],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://opensource.org/licenses/mit-license.php"
+    }
+  ],
+  "main": "lib/index.js",
+  "ender": "lib/ender.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "coffee-script": "*",
+    "ender": "*",
+    "ender-vows": "*"
+  }
+}
