@@ -87,12 +87,12 @@ A MERN stack based project on social media application. It is completely working
 ![Screen Shot 2022-09-13 at 5 34 53 PM](https://user-images.githubusercontent.com/77838959/189944856-0d310de5-943b-41aa-9192-7cee878b42b7.png)
 ![Screen Shot 2022-09-13 at 5 34 59 PM](https://user-images.githubusercontent.com/77838959/189944874-3d63b0c5-3db9-4ff6-8429-143c1058fbfd.png)
 
-##What you need to run this application:
+#What you need to run this application:
 
 - Node
 - MongoDB or Mongo Atlas
 - NPM
-##How to run this application
+#How to run this application
 
 - Make sure MongoDB is running on your system or online.
 - include MongoDB database link in .env file.
