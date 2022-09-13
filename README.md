@@ -35,7 +35,7 @@ A MERN stack based project on social media application. It is completely working
 
 ## Screenshots
 
-- homePage
+- HomePage
 
  
 ![Screen Shot 2022-09-13 at 5 06 52 PM](https://user-images.githubusercontent.com/77838959/189939979-b409517f-7c6c-479d-978c-b7c45019d4ed.png)
@@ -76,7 +76,9 @@ A MERN stack based project on social media application. It is completely working
 ![Screen Shot 2022-09-13 at 5 22 12 PM 1](https://user-images.githubusercontent.com/77838959/189941691-55d525e3-1cdf-4acb-babb-196181a6ef90.png)
 - HomePage
 
-![Screen Shot 2022-09-13 at 5 24 41 PM 1](https://user-images.githubusercontent.com/77838959/189942240-8a51bef0-db74-4da3-813b-333ec66d88bb.png)
+![Screen Shot 2022-09-13 at 5 57 02 PM](https://user-images.githubusercontent.com/77838959/189949947-4841d9d6-730b-4747-aa0b-b8b8722c9974.png)
+
+
 - Edit Profile
 
 
