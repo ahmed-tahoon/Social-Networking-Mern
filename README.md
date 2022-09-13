@@ -40,9 +40,10 @@ A MERN stack based project on social media application. It is completely working
  
 ![Screen Shot 2022-09-13 at 5 06 52 PM](https://user-images.githubusercontent.com/77838959/189939979-b409517f-7c6c-479d-978c-b7c45019d4ed.png)
 
-- Post
+- Post (Like - Comment)
 
 ![Screen Shot 2022-09-13 at 5 16 58 PM 1](https://user-images.githubusercontent.com/77838959/189940364-b73e087f-0e6b-4e29-892d-29933ea5ad43.png)
+- Post (Like - Comment)
 
 ![Screen Shot 2022-09-13 at 5 07 48 PM 1](https://user-images.githubusercontent.com/77838959/189940395-dad9571d-4472-4282-8f58-b7931195fe2e.png)
 - Profile
