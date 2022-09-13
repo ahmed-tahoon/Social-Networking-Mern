@@ -8,10 +8,10 @@ A MERN stack based project on social media application. It is completely working
 ## Features
 
 - Register and Login users.
-- post images can be uploaded 
+- Posts
+  - Posts include text(caption) and image(s).
   - Like posts
   - Deleting Posts
-  - Posts include text(caption) and image(s).
   - Comment on posts
      - View all comments on a post
      - Deleting Comment
