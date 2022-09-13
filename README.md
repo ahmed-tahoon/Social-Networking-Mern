@@ -15,12 +15,13 @@ A MERN stack based project on social media application. It is completely working
   - Comment on posts
      - View all comments on a post
      - Deleting Comment
-- Realtime Messaging 
+- Messaging 
+   - Realtime Messaging
    - Dark and Light Mode
    - Realtime Typing
    - Search for Chat
    - Notifications for new Message
-- Search for users with auto complete
+- Search for users by name or email with auto complete
 - user suggestions menu.
 - Profile Pages
   - Change profile picture
