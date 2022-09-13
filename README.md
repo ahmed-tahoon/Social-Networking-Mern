@@ -40,7 +40,7 @@ A MERN stack based project on social media application. It is completely working
  
 ![Screen Shot 2022-09-13 at 5 06 52 PM](https://user-images.githubusercontent.com/77838959/189939979-b409517f-7c6c-479d-978c-b7c45019d4ed.png)
 
-- Post (Like - Comment)
+- Post
 
 ![Screen Shot 2022-09-13 at 5 16 58 PM 1](https://user-images.githubusercontent.com/77838959/189940364-b73e087f-0e6b-4e29-892d-29933ea5ad43.png)
 - Post (Like - Comment)
@@ -63,6 +63,8 @@ A MERN stack based project on social media application. It is completely working
 
 ![Screen Shot 2022-09-13 at 5 13 12 PM](https://user-images.githubusercontent.com/77838959/189941034-df3fd0c7-c6b7-4fb3-88ad-05b2322ef265.png)
 - Search For Chat and notifications
+
+![Screen Shot 2022-09-13 at 5 43 46 PM](https://user-images.githubusercontent.com/77838959/189946602-a89f0958-00d1-4ce2-b003-6f375acedb43.png)
 
 ![Screen Shot 2022-09-13 at 5 14 06 PM](https://user-images.githubusercontent.com/77838959/189941092-072d657b-cf95-4376-a742-2a989445d537.png)
 - profile unfollow 
