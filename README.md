@@ -1,7 +1,7 @@
 
 # Complete Mern Social Media project
 
-A MERN stack based project on social media application with Realtime Chat. It is completely working project. Its' completely responsive application. MongoDB Express React NodeJs socket-io are user in this project
+A MERN stack based project on social media application with Realtime Chat. It is completely working project. Its' completely responsive application. MongoDB Express React NodeJs socket-io are used in this project
 
 
 
