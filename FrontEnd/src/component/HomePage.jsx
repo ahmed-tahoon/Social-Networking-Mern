@@ -18,6 +18,8 @@ const HomePage = () => {
   const [posts, SetPosts] = useState([]);
   const [isnew , setnew] = useState(false);
 
+  console.log(posts);
+
   const nav = useNavigate()
 
 function Addone(data1) {

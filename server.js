@@ -1,4 +1,7 @@
-const express= require("express")
+
+
+
+const express = require("express")
 const db = require('./config/db')
 const app = express();
 const users = require('./Routes/api/users')
@@ -43,28 +46,28 @@ require('./config/password')(passport);
 
 // Routes
 app.use("/api/users", users);
-app.use("/api/post/",posts);
-app.use("/api/chat/",chat);
-app.use("/api/message/",message);
+app.use("/api/post/", posts);
+app.use("/api/chat/", chat);
+app.use("/api/message/", message);
 
 
-io.on("connection",(socket)=>{
+io.on("connection", (socket) => {
   console.log("User Connect")
 
-  socket.on("setup",(userData)=>{
+  socket.on("setup", (userData) => {
     socket.join(userData.id)
     console.log(userData.id)
     socket.emit("connected")
   })
 
-socket.on("join chat" ,(room)=>{
-  socket.join(room)
-  console.log("User Join to ROOM :  " + room)
-})
+  socket.on("join chat", (room) => {
+    socket.join(room)
+    console.log("User Join to ROOM :  " + room)
+  })
 
-socket.on("typing", (room) => socket.in(room).emit("typing"));
-socket.on("stop typing", (room) => socket.in(room).emit("stop typing"));
-socket.on("new message", (newMessageRecieved) => {
+  socket.on("typing", (room) => socket.in(room).emit("typing"));
+  socket.on("stop typing", (room) => socket.in(room).emit("stop typing"));
+  socket.on("new message", (newMessageRecieved) => {
     var chat = newMessageRecieved.chat;
 
     if (!chat.users) return console.log("chat.users not defined");
@@ -95,9 +98,8 @@ if (process.env.NODE_ENV === "production") {
 
 // --------------------------deployment------------------------------
 
-const PORT = 5000;
+const PORT = process.env.PORT || 4000;
 
-server.listen(4000,()=>{
-    console.log("Server Work in " , PORT);
+server.listen(PORT, () => {
+  console.log("Server Work in ", PORT);
 })
-
