@@ -1,6 +1,4 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
+
 
 # Social Media Complete Mern project
 
@@ -35,7 +33,6 @@ A MERN stack based project on social media application. It is completely working
 - Dark Mode Support in Chat Page
  
 
->>>>>>> parent of 2cc601f... Update README.md
 =======
 
 # Complete Mern Social Media project
