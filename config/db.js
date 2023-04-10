@@ -3,7 +3,7 @@ const dotenv = require("dotenv");
 dotenv.config();
 
 
-url=process.env.MONGO_URI;
+url="mongodb+srv://ahmed:ahmed12345@cluster0.cgzzj.mongodb.net/heelo?retryWrites=true&w=majority";
 
 
 mongoose.connect(url , (err)=>{

@@ -1,6 +1,5 @@
 import React from 'react'
 import { useNavigate } from "react-router-dom";
-import  {ChatState} from "./ChatProvider";
 import { useEffect } from 'react';
 import { useState } from 'react';
 
@@ -33,7 +32,6 @@ import FindPeople from "./FindPeople";
 import Box from "@mui/material/Box";
 import BounceLoader from "react-spinners/BounceLoader";
 import MoonLoader from "react-spinners/MoonLoader";
-import Dropsearch from "./Dropsearch";
 import TextField from "@mui/material/TextField";
 import CircularProgress from "@mui/material/CircularProgress";
 import { getMessage } from "../api/api-post";

@@ -41,7 +41,7 @@ const getFeed = async (params, credentials,signal)=>{
 
     let response = await fetch('/api/post/feed/'+params.userId,requestOptions)
 
-    const Data = await response.json();
+    const Data =  response.json();
      return Data;
   } catch(err) {
     return err

@@ -95,9 +95,9 @@ if (process.env.NODE_ENV === "production") {
 
 // --------------------------deployment------------------------------
 
-const PORT = process.env.PORT || 4000;
+const PORT = 5000;
 
-server.listen(PORT,()=>{
+server.listen(4000,()=>{
     console.log("Server Work in " , PORT);
 })
 
